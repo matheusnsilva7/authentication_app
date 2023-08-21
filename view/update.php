@@ -53,7 +53,8 @@ if (!isset($_SESSION["user_data"])) {
                 <form action="../handler_db/update_db.php" enctype="multipart/form-data" method="post">
                     <label for="image" class="image">
                         <img src='<?php isset($_SESSION["user_data"]) ? print($_SESSION["user_data"]["img_url"]) : print("../img/user.png") ?>' alt='Image' width:'300'>
-                        <span>CHANGE PHOTO</span>
+                        <span class="material-symbols-outlined icon">add_a_photo</span>
+                        <h4>CHANGE PHOTO</h4>
                     </label>
                     <input type="file" name="image" id="image" accept="image/*" hidden>
                     <label for="name">Name</label>

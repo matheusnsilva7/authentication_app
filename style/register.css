@@ -55,6 +55,7 @@ form button {
   background-color: #2f80ed;
   border: none;
   border-radius: 0.8rem;
+  cursor: pointer;
 }
 .input {
   display: flex;
@@ -96,6 +97,7 @@ form button {
   display: grid;
   place-content: center;
   width: 4.2rem;
+  cursor: pointer;
   height: 4.2rem;
   border-radius: 50%;
 }
